@@ -1,9 +1,47 @@
 header{
   display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  position: fixed;
+  z-index: 2;
+}
+header h2{
+  margin-left: 10px;
 }
 .logo{
   display: flex;
+  color: MediumAquamarine;
+  margin-left: 30px;
 }
 nav{
   margin-left: auto;
+  margin-right: 30px;
+}
+nav span{
+  margin: 10px;
+}
+main{
+  position: relative;
+  top:120px;
+  display: flex;
+}
+.column1{
+  width: 630px;
+  border: 2px solid black;
+  margin: 10px;
+}
+.column2{
+  width: 300px;
+  border: 2px solid black;
+  margin: 10px;
+}
+.column3{
+  width:240px;
+  border: 2px solid black;
+  margin: 10px;
 }
